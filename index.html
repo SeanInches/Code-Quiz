@@ -5,31 +5,48 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./assets/style.css" />
         <title>Code Quiz</title>
     </head>
 
-<body>
-    <header>
-        <h1 class="headertext">Code Quiz</h1>
-        <button class="startbtn">Start</button>
-    </header>
+    <body>
+        <header>
+            <h1 class ="header-Txt">Code Quiz</h1>
+            <button class="start-button">Start!</button>
+        </header>
 
-    <main>
-        <section>
-            <div class="questions">Ready?</div>
-            <div class="answer-choices">
-                <ul class="random-answers">
-                    <li class="answer-choice"></li>
-                    <li class="answer-choice"></li>
-                    <li class="answer-choice"></li>
-                    <li class="answer-choice"></li>
-                </ul>
-            </div>
-        </section>
+        <main>
+            <section>
+                <div class="questions">Click start to begin</div>
+                <div class="answer-choices">
+                    <ul class="random-answers">
+                        <li><div class="answer-choice"></div></li>
+                        <li><div class="answer-choice"></div></li>
+                        <li><div class="answer-choice"></div></li>
+                        <li><div class="answer-choice"></div></li>
+                    </ul>
+                </div>
+                <button class="next-button" hidden>Next</button>
+            </section>
 
-        <aside>
-            <div class=
-        </aside>
-    </main>
-</body>
+            <aside>
+                <div class= "card timer">
+                    <div class = "timer-text">
+                    <div class="timer-count">50</div>
+                    <h3>seconds remaining</h3>
+                </div>
+                <div class="highscore">Highscore</div>
+                <div class="highscore-form" hidden>
+                    <form class="submit" >
+                        <label for="initials">Enter Initials</label>
+                        <input type="text" id="initials" name ="initials">
+                        <input type="submit">
+
+                    </form>
+                </div>
+               
+            </aside>
+        </main>
+        <script src="./assets/script.js"></script>
+    </body>
+</html>
